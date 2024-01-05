@@ -1,8 +1,8 @@
-## Landing-page
+# Landing-page
 
 Desafío de Hola Juniors.
 
-# Instrucciones
+## Instrucciones
 
 En este reto, te invitamos a demostrar tus habilidades en HTML y CSS al desarrollar una Landing Page.
 
