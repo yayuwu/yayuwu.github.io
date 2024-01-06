@@ -1,3 +1,47 @@
 * {
-    margin: 0;
+    /* border: solid 1px slateblue; */
+    color: #1E0E62;
+}
+
+p {
+    color: #A5A5B1;
+}
+
+header, footer {
+    background-color: #F1F1F1;
+}
+
+nav  a, footer a {
+    text-decoration: none;
+    color: #1E0E62;
+}
+
+footer a {
+    color: #482BE7;
+}
+
+
+nav > button {
+    color: #1E0E62;
+    background-color: white;
+    border: 2px solid #F1F1F1;
+}
+
+main button {
+    width: 100px;
+    background-color: #25DAC4;
+    border: solid 1px #25DAC4;
+}
+
+main button > a {
+    text-decoration: none;
+    color: white;
+}
+
+#img-perfil {
+    width: 80%;
+}
+
+.w {
+    width: 30px;
 }

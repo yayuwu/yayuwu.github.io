@@ -6,86 +6,139 @@
     <title>Yael Correa</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="fontawesome/css/brands.css" rel="stylesheet">
+    <link href="fontawesome/css/solid.css" rel="stylesheet">
 </head>
 <body>
-    <nav>
-        <p>HolaJuniors.com</p>
-        <button>Email</button>
+    <nav class="nav navbar my-3 px-5">
+        <a href="https://holajuniors.com/yayuu" target="_blank" class="fs-5 fw-bold">HolaJuniors.com</a>
+        <button class="px-4 py-1 rounded-pill fw-semibold"><a href="mailto:yscorrea10@gmail.com">Email</a></button>
     </nav>
-    <header>
-        <section>
-            <div>
-                <h1>Hola, soy Yael.</h1>
-                <h1>Front End Developer</h1>
-                <p>Si la oportunidad no llama, construye una puerta</p>
-            </div>
-            <div>
-                <img src="" alt="">
-            </div>
-        </section>
-        <section>
-            <div>
-                <h1>Mis habilidades</h1>
-                <p>Tengo conocimientos en HTML, CSS, Bootstrap, MySQL, JavaScript y Node.js. Además, nivel básico de diseño web con Figma y Photoshop</p>
-            </div>
-            <div>
-                <div>
-                    <h2>HTML</h2>
-                    <p></p>
+    <header class=" my-3 pt-5 px-5">
+        <div class="container-fluid">
+            <section class="row align-items-center">
+                <div class="col-sm-12 col-md ">
+                    <h1>Hola, soy Yael.</h1>
+                    <h1>Front End Developer</h1>
+                    <p class="fs-5 pt-5">Soy una persona autodidacta, optimista y me desenvuelvo bien trabajando en equipo. Estoy buscando mi primer trabajo IT con mucho entusiasmo para aplicar todas mis habilidades y crecer profesionalmente ⭐</p>
                 </div>
-                <div>
-                    <h2>CSS</h2>
-                    <p></p>
+                <div class="col-sm-12 col-md text-center pt-4">
+                    <img src="img/perfil.jpeg" alt="imagen-perfil" id="img-perfil" class="rounded">
                 </div>
-                <div>
-                    <h2>JavaScript y Node.js</h2>
-                    <p></p>
+            </section>
+            <section class="row text-center mt-5">
+                <div class="col-12 py-5 d-flex flex-column align-items-center">
+                    <h1>Mis habilidades</h1>
+                    <p class="fs-5 pt-3" style="width: 60%;">Tengo conocimientos en HTML, CSS, Bootstrap, MySQL, JavaScript y Node.js. Además, nivel básico de diseño web con Figma y Photoshop.</p>
                 </div>
-            </div>
-        </section>
+                <div class="col-12 my-5 py-2 pb-5">
+                    <div class="row">
+                        <div class="col-sm-12 col-md px-5">
+                            <h2 class="fs-4 pb-3">HTML, CSS y Bootstrap</h2>
+                            <p>Conocimientos avanzados de maquetado web de HTML5, CSS y Bootstrap Responsive desde hace 3 años de forma autodidacta.</p>
+                        </div>
+                        <div class="col-sm-12 col-md px-5">
+                            <h2 class="fs-4 pb-3">JavaScript</h2>
+                            <p>Conocimientos de lógica avanzada de JavaScript, incluyendo DOM y POO desde hace 3 años de forma autodidacta.</p>
+                        </div>
+                        <div class="col-sm-12 col-md px-5">
+                            <h2 class="fs-4 pb-3">Node.js</h2>
+                            <p>Conocimientos intermedios de Node.js usando Express.js, con la posibilidad de usar otras tecnologías como NodeMailer, Sequelize, Nodemon, Multer, entre otras.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
     </header>
-    <main>
-        <section>
+    <main class=" my-5 px-5">
+        <section class="text-center py-5 d-flex flex-column align-items-center">
             <h1>Mi experiencia</h1>
-            <p>Experiencia en creación de proyectos de cursos o hechos de forma autodidacta</p>
-            <button>Github</button>
+            <p class="fs-5 pt-2" style="width: 60%;">Como mencioné antes, me considero una persona autodidacta. Por eso mismo incremento mis habilidades con la realización de diferentes proyectos que encontrarán a continuación.</p>
+            <button class="px-4 py-2 rounded-pill"><a href="https://github.com/yayuwu" target="_blank">GitHub</a></button>
         </section>
-        <section>
-            <div>
-                <h3>Página web personal</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>Funkos web</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>Calculadora web</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>Landing-page</h3>
-                <p></p>
-            </div>
-            <div>
-                <h3>Próximamente</h3>
-                <p>Próximamente...</p>
-            </div>
-            <div>
-                <h3>Próximamente</h3>
-                <p>Próximamente...</p>
+        <section class="container-fluid">
+            <div class="row py-5">
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/personal-web.png" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Página web personal</h3>
+                    <p>Mi página web donde podés encontrar mi  portfolio, sobre mis estudios y demás. Aún está en proceso de armado. Hecho con HTML, CSS, Bootstrap y Node.js.</p>
+                    <button class=" rounded-pill py-1">
+                        <a href="https://personal-web-virid-zeta.vercel.app/" target="_blank">Web</a>
+                    </button>
+                    <button class="mt-2 rounded-pill py-1">
+                        <a href="https://github.com/yayuwu/Personal-Web" target="_blank">Github Link</a>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/funkoshop.png" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Funkos web</h3>
+                    <p>Página Web de Funkos hecho como proyecto en equipo de un curso de Codo a Codo. Hecho con HTML, CSS, Node.js, Sequelize y MySQL. No es Responsive.</p>
+                    <button class=" rounded-pill py-1">
+                        <a href="https://ca-c.vercel.app/" target="_blank">Web</a>
+                    </button>
+                    <button class="mt-2 rounded-pill py-1">
+                        <a href="https://github.com/inakizarate25/CaC.git" target="_blank">Github Link</a>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/calculadora.jpg" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Calculadora web</h3>
+                    <p>Calculadora Web simple, hecha con HTML, CSS y puro JavaScript como desafío en Hola Juniors.</p>
+                    <button class=" rounded-pill py-1">
+                        <a href="https://yc-calculadora-web.000webhostapp.com/index.html" target="_blank">Web</a>
+                    </button>
+                    <button class="mt-2 rounded-pill py-1">
+                        <a href="https://github.com/yayuwu/Calculadora-web" target="_blank">Github Link</a>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/landing-page.png" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Landing-page</h3>
+                    <p>Langing Page Simple sobre mí, hecho con HTML, CSS y Bootstrap como desafío de Hola Juniors.</p>
+                    <button class=" rounded-pill py-1">
+                        <a href="#" target="_blank">Web</a>
+                    </button>
+                    <button class="mt-2 rounded-pill py-1">
+                        <a href="https://github.com/yayuwu/yayuwu.github.io/tree/main" target="_blank">Github Link</a>
+                    </button>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/noimage.png" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Próximamente</h3>
+                    <p>Próximamente...</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 py-5 px-5 d-flex flex-column">
+                    <img src="img/noimage.png" alt="" class="w-100 rounded-4">
+                    <h3 class="pt-4 fs-4">Próximamente</h3>
+                    <p>Próximamente...</p>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
-        <div>
+    <footer class="text-center mt-5 py-5 px-5">
+        <div class="py-5 mt-5">
             <h1>Si necesitas más información:</h1>
-            <a href="mailto:yscorrea10@gmail.com">yscorrea10@gmail.com</a>
+            <a href="mailto:yscorrea10@gmail.com" class="fs-1">yscorrea10@gmail.com</a>
         </div>
-        <div>
-            <div>Imagen</div>
-            <div>Imagen</div>
-            <div>Imagen</div>
+        <div class="container-fluid mb-5 justify-content-center"  style="width: 40%;">
+            <div class="row px-5 py-2">
+                <div class="col-sm-12 col-md pb-3">
+                    <a href="">
+                        <i class="fa-brands fa-instagram fa-2xl" style="color: #a5a5b1;"></i>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md pb-3">
+                    <a href="https://linkedin.com/in/yael-correa" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-2xl" style="color: #a5a5b1;"></i>
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md pb-3">
+                    <a href="https://github.com/yayuwu" target="_blank">
+                        <i class="fa-brands fa-github fa-2xl" style="color: #a5a5b1;"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
